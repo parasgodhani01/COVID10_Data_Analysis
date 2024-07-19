@@ -4,7 +4,7 @@ To access this project you need to required this libraries.
 -- To install it use this command : pip install pandas
 
 2) flask
--- To install it use this command : pip install flask
+-- To install it use this command : pip install -U flask
 
 3) werkzeug
 -- To install it use this command : pip install werkzeug
