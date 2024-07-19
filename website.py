@@ -4,12 +4,16 @@ from werkzeug.serving import run_simple
 
 app = Flask(__name__,template_folder='.')
 
+
 @app.route('/')
 def index():
     my_connection = sqlite3.connect('covid_19.db')
     cursor = my_connection.cursor()
     data = cursor.execute("SELECT * FROM covid_19").fetchall()
     my_connection.close()
+
+    data = data.to_html(index=False) 
+
     return render_template_string('''
         <!DOCTYPE html>
         <html>
