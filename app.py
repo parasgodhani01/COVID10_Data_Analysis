@@ -5,7 +5,7 @@ import pathlib
 
 
 cwd = pathlib.Path.cwd()
-main_path = pathlib.Path('E:\St.Clair College\Intro to Python - 100\DAB 111-W024\DAB111_project_Group_8\Database')
+main_path = pathlib.Path(r'E:\St.Clair College\Intro to Python - 100\DAB 111-W024\DAB111_project_Group_8\Database')
 db_name = "covid_19.db"
 db_path = main_path / db_name
 
