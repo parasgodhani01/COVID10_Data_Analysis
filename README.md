@@ -8,7 +8,7 @@ To use this project , you need python code for storing data in database and then
 <br>
 You have to first install libraries and for that we recommend to visit requirements.txt file
 
-## setup
+## Setup
 1) Data collection folder contain file to see basic information about data like its shape and dataypes.
 2) Database folder stores file where our db file stored.
 3) website folder which is main folder where app file you will find and you have to run to see the final outout.
