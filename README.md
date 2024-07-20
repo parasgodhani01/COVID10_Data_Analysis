@@ -5,6 +5,8 @@ This repository contains all file for this project where we have shown covid 19 
 
 ## Requirements
 To use this project , you need python code for storing data in database and then use website to show it.
+<br>
+You have to first install libraries and for that we recommend to visit requirements.txt file
 
 ## setup
 1) Data collection folder contain file to see basic information about data like its shape and dataypes.
