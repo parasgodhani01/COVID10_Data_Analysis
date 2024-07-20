@@ -1,125 +1,68 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>DAB 111 - Python</title>
-
-        <style>
-            table {
-                width: 90%;
-                margin: auto;
-                border-collapse: collapse;
-                font-size: 12px;
-            }
-            th, td {
-                border: 1px solid black;
-                padding: 8px;
-                text-align: center;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>About</h1>
-        <ul>
-            <li><a href="{{ url_for('index') }}">Link To Home page</a></li>
-        </ul>
-        <br />
-
-        <h2>Data Source</h2>
-        <p>The Data used for this project was gotten from Data World. A full view of the utilized data can be found <a href="https://data.world/dradar/customerchurnpredictiononsupermarketdata" target="_blank">here</a></p>
-        
-        <br />
-
-        <h2>Feature Definition</h2>
-        <table>
-            <thead>
-                <tr><th>Variable Name</th><th>Data Type</th><th>Description</th></tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>row_number</td>
-                    <td>numerical</td>
-                    <td>1, 2, 3...</td>
-                </tr>
-                <tr>
-                    <td>invoice_id</td>
-                    <td>categorical</td>
-                    <td>example 655-07-2265</td>
-                </tr>
-                <tr>
-                    <td>branch</td>
-                    <td>categorical</td>
-                    <td>A, B, C</td>
-                </tr>
-                <tr>
-                    <td>customer_id</td>
-                    <td>numerical</td>
-                    <td>identifier</td>
-                </tr>
-                <tr>
-                    <td>gender</td>
-                    <td>categorical</td>
-                    <td>male, female</td>
-                </tr>
-                <tr>
-                    <td>age</td>
-                    <td>numerical</td>
-                    <td>1, 2, 3...</td>
-                </tr>
-                <tr>
-                    <td>customer_type</td>
-                    <td>categorical</td>
-                    <td>normal, member</td>
-                </tr>
-                <tr>
-                    <td>credit_score</td>
-                    <td>continuous</td>
-                    <td>from 350 to 850</td>
-                </tr>
-                <tr>
-                    <td>product_category</td>
-                    <td>categorical</td>
-                    <td>Fashion accessories, Food and beverages, Electronic accessories, Sports and travel, Home and Lifestyle, Health and beauty</td>
-                </tr>
-                <tr>
-                    <td>number_of_products</td>
-                    <td>numerical</td>
-                    <td>1, 2, 3...</td>
-                </tr>
-                <tr>
-                    <td>tax_amount</td>
-                    <td>continuous</td>
-                    <td>from 0.5085 to 49.65</td>
-                </tr>
-                <tr>
-                    <td>price</td>
-                    <td>continuous</td>
-                    <td>from 10.08 to 99.96</td>
-                </tr>
-                <tr>
-                    <td>total_amount</td>
-                    <td>continuous</td>
-                    <td>from 10.67 to 1042.65</td>
-                </tr>
-                <tr>
-                    <td>ratings</td>
-                    <td>continuous</td>
-                    <td>from 4.0 to 10.0</td>
-                </tr>
-                <tr>
-                    <td>customer_churn</td>
-                    <td>categorical</td>
-                    <td>False, True</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br />
-
-        <footer>
-            <p>&copy; 2024 Group 11, Section 3. All rights reserved.</p>
-        </footer>
-    </body>
+<head>
+    <title>Dataset : COVID-19 Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0e0e0e;
+        }
+        .variable {
+            margin-bottom: 20px;
+        }
+        .variable h2 {
+            color: #555;
+        }
+        .variable p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>About COVID-19 Data</h1>
+    <div class="variable">
+        <h2>Source of this data</h2>
+        <p></p>
+    </div>
+    <div class="variable">
+        <h2>country</h2>
+        <p>The name of the country or region where the data is recorded.</p>
+    </div>
+    <div class="variable">
+        <h2>continent</h2>
+        <p>The continent where the country or region is located.</p>
+    </div>
+    <div class="variable">
+        <h2>population</h2>
+        <p>The population of the country or region.</p>
+    </div>
+    <div class="variable">
+        <h2>day</h2>
+        <p>The date on which the data was recorded, in the format <code>dd-mm-yyyy</code>.</p>
+    </div>
+    <div class="variable">
+        <h2>time</h2>
+        <p>The timestamp indicating the exact time the data was recorded.</p>
+    </div>
+    <div class="variable">
+        <h2>Cases</h2>
+        <p>The total number of confirmed COVID-19 cases reported in the country or region.</p>
+    </div>
+    <div class="variable">
+        <h2>Recovered</h2>
+        <p>The number of recovered COVID-19 cases in the country or region.</p>
+    </div>
+    <div class="variable">
+        <h2>Deaths</h2>
+        <p>The number of deaths caused by COVID-19 in the country or region.</p>
+    </div>
+    <div class="variable">
+        <h2>Tests</h2>
+        <p>The total number of COVID-19 tests conducted in the country or region.</p>
+    </div>
+</body>
 </html>
