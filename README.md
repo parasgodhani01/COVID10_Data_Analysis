@@ -1,4 +1,4 @@
-# DAB111_project_Group_8
+# COVID19 Data Analysis
 
 ## Description
 This repository contains all file for this project where we have shown covid 19 dataset.
